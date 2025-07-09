@@ -1,4 +1,7 @@
 import React from "react";
+import App from "./App";
+import Home from "./Home";
+import NavBar from "./NavBar";
 
 function About() {
   return (
@@ -9,3 +12,8 @@ function About() {
     </div>
   );
 }
+
+const image = "https://i.imgur.com/mV8PQxj.gif";
+
+
+export default About;
